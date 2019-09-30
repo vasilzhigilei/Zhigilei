@@ -4,7 +4,7 @@
 
 Zhigilei
 ===============
-Repository for [Zhigilei.com](https://zhigilei.com).
+Repository for [Zhigilei.com](http://zhigilei.com).
 Personal portfolio website to go beyond my resume.
 
 The Website
