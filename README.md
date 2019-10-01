@@ -4,7 +4,7 @@
 
 Zhigilei
 ===============
-Repository for [Zhigilei.com](https://zhigilei.com).
+Repository for [Zhigilei.com](http://zhigilei.com).
 Personal portfolio website to go beyond my resume.
 
 The Website
@@ -14,8 +14,15 @@ Zhigilei.com is my personal portfolio website that is intended to give better in
 Changelog
 ---------
 
+##### September 30th, 2019
+* Started work on resume page, profile picture and short bio created
+* General UI improvements, primarily on resume page
+
+##### September 26th, 2019
+* Updated images, improved look, fixed CSS table issue
+
 ##### September 23rd, 2019
-Updated README.md with short description
+* Updated README.md with short description
 
 ##### September 22nd, 2019
-Committed initial version of website files
+* Committed initial version of website files
