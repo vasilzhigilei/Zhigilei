@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="320" height="124" src="https://raw.githubusercontent.com/vasilzhigilei/Zhigilei/master/zhigilei.png">
+  <a href="http://zhigilei.com" target="_blank"><img width="320" height="124" src="https://raw.githubusercontent.com/vasilzhigilei/Zhigilei/master/zhigilei.png"></a>
 </p>
 
 Zhigilei
@@ -13,6 +13,19 @@ Zhigilei.com is my personal portfolio website that is intended to give better in
 
 Changelog
 ---------
+
+##### October 25th, 2019
+* Removed .html extension with the addition of an .htaccess file
+* Improved internal file organization
+
+##### October 24th, 2019
+* Cleaned up 'About Me' & 'Home' pages, marking as work-in-progress
+* Went live with first version of website!
+
+##### October 23rd, 2019
+* Resume page prettied and finalized
+* Implemented RRSSB social meadia buttons to website, mainly for resume page
+* Favicon created
 
 ##### September 30th, 2019
 * Started work on resume page, profile picture and short bio created
