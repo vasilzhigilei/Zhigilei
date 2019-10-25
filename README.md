@@ -14,6 +14,9 @@ Zhigilei.com is my personal portfolio website that is intended to give better in
 Changelog
 ---------
 
+##### October 26th, 2019
+* Implemented Google Analytics for live version
+
 ##### October 25th, 2019
 * Removed .html extension with the addition of an .htaccess file
 * Improved internal file organization
