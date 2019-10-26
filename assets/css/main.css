@@ -2059,10 +2059,51 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		position: relative;
+		overflow: hidden;
 		height: 24em;
-		background: url("../../images/banner.jpg") center center;
-		background-size: cover;
 		padding: 0;
+	}
+
+	#background {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		position: relative;
+		height: 24em;
+		padding: 0;
+		width: 100%;
+		background: url("../../images/banner.jpg") center center;
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+		-moz-transition: background-size 2s ease-in-out;
+		-ms-transition: background-size 2s ease-in-out;
+		-o-transition: background-size 2s ease-in-out;
+		-webkit-transition: background-size 2s ease-in-out;
+		transition: background-size 2s ease-in-out;
+	}
+
+	#header:hover #background,
+	#header:focus #background {
+		background-size: 110% auto;
+	}
+
+	@media screen and (max-width: 980px) {
+		#background{
+			background-size: cover;
+		}
+		#header:hover #background,
+		#header:focus #background {
+		background-size: cover;
+	}
 	}
 
 		#header:before {
