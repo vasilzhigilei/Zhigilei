@@ -2080,7 +2080,7 @@ input, select, textarea {
 		position: relative;
 		height: 24em;
 		padding: 0;
-		width: 100%;
+		min-width: 100%;
 		background: url("../../images/banner.jpg") center center;
 		background-size: 100% auto;
 		background-repeat: no-repeat;
@@ -2091,8 +2091,35 @@ input, select, textarea {
 		transition: background-size 2s ease-in-out;
 	}
 
+	#background-water{
+		position: absolute;
+		width: 100%;
+		height: 24em;
+	}
+
+	#background-water::before {
+		-moz-transition: background-size 2s ease-in-out;
+		-ms-transition: background-size 2s ease-in-out;
+		-o-transition: background-size 2s ease-in-out;
+		-webkit-transition: background-size 2s ease-in-out;
+		transition: background-size 2s ease-in-out;
+		content: "";
+		position: absolute;
+		padding: 0;
+		min-width: 100%;
+		min-height: 24em;
+		background: url("../../images/bannerMask.png") center center;
+		filter: url("#turbulence");
+		background-size: 100% auto;
+	  }
+
 	#header:hover #background,
 	#header:focus #background {
+		background-size: 110% auto;
+	}
+
+	#header:hover #background-water::before,
+	#header:focus #background-water::before {
 		background-size: 110% auto;
 	}
 
@@ -2102,8 +2129,15 @@ input, select, textarea {
 		}
 		#header:hover #background,
 		#header:focus #background {
-		background-size: cover;
-	}
+			background-size: cover;
+		}
+		#background-water::before{
+			background-size: cover;
+		}
+		#header:hover #background-water::before,
+		#header:focus #background-water::before {
+			background-size: cover;
+		}
 	}
 
 		#header:before {
