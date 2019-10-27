@@ -16,6 +16,7 @@ Changelog
 
 ##### October 26th, 2019
 * Implemented Google Analytics for live version
+* Implemented background image hover scaling
 
 ##### October 25th, 2019
 * Removed .html extension with the addition of an .htaccess file
