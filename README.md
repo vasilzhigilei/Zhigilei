@@ -14,6 +14,9 @@ Zhigilei.com is my personal portfolio website that is intended to give better in
 Changelog
 ---------
 
+##### October 27th, 2019
+* Implemented animated water for background images using SVG/CSS filters
+
 ##### October 26th, 2019
 * Implemented Google Analytics for live version
 * Implemented background image hover scaling
