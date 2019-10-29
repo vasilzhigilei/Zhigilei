@@ -14,6 +14,11 @@ Zhigilei.com is my personal portfolio website that is intended to give better in
 Changelog
 ---------
 
+##### October 29th, 2019
+* Overwhelmingly improved water animation mask accuracy
+* Improved turbulence filter realisticity
+* Expanded filter to beyond.html
+
 ##### October 27th, 2019
 * Implemented animated water for background images using SVG/CSS filters
 
