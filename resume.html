@@ -35,9 +35,9 @@
 					</div>
 					<svg>
 						<filter id="turbulence" x="0" y="0" width="100%" height="100%">
-						  <feTurbulence id="sea-filter" numOctaves="3" seed="2" baseFrequency="0.002 0.005"></feTurbulence>
+						  <feTurbulence id="sea-filter" numOctaves="1" seed="2" baseFrequency="0.2 0.5"></feTurbulence>
 						  <feDisplacementMap scale="1" in="SourceGraphic"></feDisplacementMap>
-						  <animate xlink:href="#sea-filter" attributeName="baseFrequency" dur="120s" keyTimes="0;0.5;1" values="0.02 0.06;0.04 0.08;0.02 0.06" repeatCount="indefinite"/>
+						  <animate xlink:href="#sea-filter" attributeName="baseFrequency" dur="60s" keyTimes="0;1" values="0.4 0.8;0.1 0.5;" repeatCount="indefinite"/>
 						</filter>
 					</svg>
 				</section>
