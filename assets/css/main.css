@@ -2033,8 +2033,8 @@ input, select, textarea {
 				color: #484d55;
 			}
 
-			.wrapper.style3 .image {
-				border: solid 10px #fff;
+			.wrapper.style1 .image {
+				border: solid 5px #999999;
 			}
 
 /* Page Wrapper */
