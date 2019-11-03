@@ -14,6 +14,10 @@ Zhigilei.com is my personal portfolio website that is intended to give better in
 Changelog
 ---------
 
+##### November 2nd, 2019
+* Added image buttons on main page to About Me and Resume
+* Added overlay animation to image buttons
+
 ##### October 29th, 2019
 * Overwhelmingly improved water animation mask accuracy
 * Improved turbulence filter realisticity
