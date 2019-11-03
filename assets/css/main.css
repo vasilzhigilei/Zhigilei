@@ -2152,6 +2152,11 @@ input, select, textarea {
 	}
 
 	@media screen and (max-width: 980px) {
+		.wrapper.style1 {
+			background: rgb(249, 101, 116, 1);
+			color: #eee;
+		}
+
 		#background{
 			background-size: cover;
 		}
