@@ -2333,10 +2333,10 @@ input, select, textarea {
 			color: #fff;
 			border-radius: 0.35em;
 			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
-			font-size: 2.75em;
-			letter-spacing: 0.075em;
-			line-height: 1.35em;
-			padding: 1em 0 1em 0;
+			font-size: 2.25em;
+			letter-spacing: 0.06em;
+			line-height: 1.2em;
+			padding: .8em 0 .8em 0;
 			margin-bottom: 1em;
 		}
 
