@@ -2003,7 +2003,7 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background: radial-gradient(at top, rgb(249, 101, 116, 1) 20%, rgb(44, 48, 58, 1) 100%);
-			color: #eee;
+			color: #fff; /* changed from #eee */
 		}
 
 			.wrapper.style1 .title {
@@ -2070,6 +2070,33 @@ input, select, textarea {
 	opacity: .9;
 }
   
+/* sidebar spanish/it */
+.product{
+	position: relative;
+    overflow: hidden;
+}
+
+.product::before{
+	content: ' ';
+    display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+    opacity: .3;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150% auto;
+}
+
+.product.Spanish::before{
+    background-image: url('../files/spanishdefine/beach_ocean_optimized.jpg');
+}
+
+.product.IT::before{
+	background-size: 50% auto;
+	background-image: url('../files/ithardwaresurplus/ebayIcon.png');
+}
+
 
 /* Header */
 
@@ -2154,7 +2181,7 @@ input, select, textarea {
 	@media screen and (max-width: 980px) {
 		.wrapper.style1 {
 			background: rgb(249, 101, 116, 1);
-			color: #eee;
+			color: #fff; /* changed from #eee */
 		}
 
 		#background{
@@ -2205,7 +2232,7 @@ input, select, textarea {
 		}
 
 		#logo p {
-			color: #eee;
+			color: #fff; /* changed from #eee */
 			color: rgba(255, 255, 255, 0.5);
 			text-transform: uppercase;
 			margin: 1.25em 0 0 0;
@@ -2244,7 +2271,7 @@ input, select, textarea {
 
 				#nav > ul > li > a, #nav > ul > li > span {
 					display: block;
-					color: #eee;
+					color: #fff; /* changed from #eee */
 					color: rgba(255, 255, 255, 0.90);
 					text-transform: uppercase;
 					text-decoration: none;
@@ -2294,7 +2321,7 @@ input, select, textarea {
 			-ms-transition: all .25s ease-in-out;
 			transition: all .25s ease-in-out;
 			display: block;
-			color: #eee;
+			color: #fff; /* changed from #eee */
 			color: rgba(255, 255, 255, 0.75);
 			text-transform: uppercase;
 			text-decoration: none;
@@ -2380,7 +2407,7 @@ input, select, textarea {
 
 	#footer {
 		background: #282b34 url("images/overlay.png");
-		color: #eee;
+		color: #fff; /* changed from #eee */
 		color: rgba(255, 255, 255, 0.5);
 		padding-bottom: 6em;
 	}
@@ -2447,7 +2474,7 @@ input, select, textarea {
 
 		#footer .title {
 			background: #282b34 url("images/overlay.png");
-			color: #eee;
+			color: #fff; /* changed from #eee */
 		}
 
 		#footer header.style1 {
