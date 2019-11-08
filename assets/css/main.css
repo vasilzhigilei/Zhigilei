@@ -2076,7 +2076,7 @@ input, select, textarea {
     overflow: hidden;
 }
 
-.product::before{
+.product:before{
 	content: ' ';
     display: block;
 	position: absolute;
@@ -2093,7 +2093,6 @@ input, select, textarea {
 }
 
 .product.IT::before{
-	background-size: 50% auto;
 	background-image: url('../files/ithardwaresurplus/ebayIcon.png');
 }
 
