@@ -2096,6 +2096,10 @@ input, select, textarea {
 	background-image: url('../files/ithardwaresurplus/ebayIcon.png');
 }
 
+.product.Github::before{
+    background-color: #444;
+}
+
 
 /* Header */
 
