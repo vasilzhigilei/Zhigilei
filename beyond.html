@@ -52,10 +52,14 @@
 								border-radius: 0.35em; width: 100%;
 								box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.5);text-align: center;">
 								<div style="padding: 1.5em;">
-									<header><h2 style="padding: .5em; font-size: 1.8em;">Tech Related</h1></header>
+									<header><h2 style="padding: .5em; font-size: 1.8em;">Two Lists</h1></header>
 									<header><h2 style="padding: .5em; font-size: 1.3em;">Interests</h1></header>
-									<p style="margin-bottom: .5em;">AI & Machine Learning</p>
-									<p style="margin-bottom: .5em;">Creating new products & software</p>
+									<div><div style="float: left;">#1:</div><p style="margin-bottom: .2em;">Programming (duh!)</p></div>
+									<div><div id="randomNum" style="float: left;">#?</div><p style="margin-bottom: .2em;">Travel (18+ countries)</p></div> 
+									<div><div id="randomNum" style="float: left;">#?</div><p style="margin-bottom: .2em;">Scuba Diving (PADI Rescue, Nitrox)</p></div> 
+									<div><div id="randomNum" style="float: left;">#?</div><p style="margin-bottom: .2em;">Teaching & Learning from others</p></div>
+									<div><div id="randomNum" style="float: left;">#?</div><p style="margin-bottom: .2em;">Creating things with a purpose</p></div>
+									<div><div id="randomNum" style="float: left;">#?</div><p style="margin-bottom: .2em;">Striving to be well-rounded</p></div>
 									<header><h2 style="padding: .5em; font-size: 1.3em;">Languages</h1></header>
 									<p style="margin-bottom: .5em;">Java & JavaFX, C++/C & CUDA, Python</p>
 									<p style="margin-bottom: .5em;">Javascript, PHP, MySQL</p>
@@ -74,7 +78,7 @@
 										<img src="images/profile/peniscolaSelfie.jpg" alt="Avatar" style="border-radius: 50%;height:200px;width:200px;box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);">
 									</section>
 									<section class="box" style="margin-bottom: 2em;">
-											<p>¡Hola! My name is <strong>Vasil</strong>, and here you can learn about my <strong> skills & interests</strong>! I'm currently studying abroad in <strong>Valencia, Spain</strong>, and I am a <strong>2nd year UVA Engineering Computer Science major</strong>.
+											<p>¡Hola! My name is <strong>Vasil</strong>, and here you can learn about my <strong> skills & interests</strong>! I'm currently studying abroad in <strong>Valencia, Spain</strong>, and I am a <strong>rising 3rd year UVA Engineering Computer Science major</strong>.
 												For a resume, please visit <strong><a href="resume" style="text-decoration:none">"Resume"</a></strong>
 											</p>
 											
@@ -105,7 +109,9 @@
 								border-radius: 0.35em; width: 100%;
 								box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.5);text-align: center;">
 									<div style="padding: 1.5em;">
-											<p>general skills here, things such as "trlingual"
+											<div style="display: flex; justify-content: center; align-items: center;">
+												<h2 style="writing-mode: vertical-rl; padding: .5em; font-size: 1.8em;">I promise I'll put something here,<br>eventually...</h2>
+											</div>
 									</div>
 							</div>									
 							</div>
@@ -246,6 +252,16 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/rrssb.min.js"></script>
+
+			<script>
+			const elementsList = document.querySelectorAll("#randomNum");
+			const elementsArray = [...elementsList];
+			setInterval(function(){   
+				elementsArray.forEach(element => {
+					element.innerHTML = '#' + Math.floor((Math.random()*8)+2);
+				});
+ 			}, 10);
+			</script>
 
 	</body>
 	<!--
