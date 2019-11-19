@@ -1,272 +1,345 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>ZHIGILEI &ndash; Beyond the Resume</title>
-		<link rel="icon" href="favicon.ico" />
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
-		<link rel="stylesheet" href="assets/css/rrssb.css" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="left-sidebar is-preload">
-		<div id="page-wrapper">
 
-			<!-- Header -->
-				<section id="header" class="wrapper">
-					<div id="background"><div id="background-water"></div>
-					<!-- Logo  -->
-					<div id="logo">
-						<!--<h1><a href="index.html">Z H I G I L E I</a></h1>-->
-						<a href="./"><img src="zhigilei.png"></a>
-						<p style="color:#ff75ac; font-weight: bold;">Official website of Vasil Zhigilei</p>
-					</div>
+<head>
+    <title>ZHIGILEI &ndash; Beyond the Resume</title>
+    <link rel="icon" href="favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/rrssb.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
 
-				 <!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li class="current"><a href="beyond">About Me</a></li>
-							<li><a href="./">Home</a></li>
-							<li><a href="resume">Resume</a></li>
-						</ul>
-					</nav>
-					</div>
-					<svg>
-						<filter id="turbulence" x="0" y="0" width="100%" height="100%">
-						  <feTurbulence id="sea-filter" numOctaves="1" seed="2" baseFrequency="0.002 0.005"></feTurbulence>
-						  <feDisplacementMap scale="1" in="SourceGraphic"></feDisplacementMap>
-						  <animate xlink:href="#sea-filter" attributeName="baseFrequency" dur="60s" keyTimes="0;1" values="0.04 0.08;0.01 0.05" repeatCount="indefinite"/>
-						</filter>
-					</svg>
-				</section>
+<body class="left-sidebar is-preload">
+    <div id="page-wrapper">
+        <!-- Header -->
+        <section id="header" class="wrapper">
+            <!-- Header & Background Div -->
+            <div id="background">
+                <!-- Background Water Div -->
+                <div id="background-water"></div>
 
-			<!-- Main -->
-				<section id="intro" class="wrapper style1">
-					<div class="title">About Me</div>
-					<div class="container">
-						<div class="row gtr-150" style="align-content: center;">
-							<div class="col-4 col-12-medium">
-								<!-- Sidebar -->
-								<div id="sidebar" style="display: inline-block;
+                <!-- Logo -->
+                <div id="logo">
+                    <!--<h1><a href="index.html">Z H I G I L E I</a></h1>-->
+                    <a href="./"><img src="zhigilei.png"></a>
+                    <p style="color:#ff75ac; font-weight: bold;">Official website of Vasil Zhigilei</p>
+                </div>
+
+                <!-- Nav -->
+                <nav id="nav">
+                    <ul>
+                        <li class="current"><a href="beyond">About Me</a></li>
+                        <li><a href="./">Home</a></li>
+                        <li><a href="resume">Resume</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- SVG turbulence filter -->
+            <svg>
+					<filter id="turbulence" x="0" y="0" width="100%" height="100%">
+						<feTurbulence id="sea-filter" numOctaves="1" seed="2" baseFrequency="0.002 0.005"></feTurbulence>
+						<feDisplacementMap scale="1" in="SourceGraphic"></feDisplacementMap>
+						<animate xlink:href="#sea-filter" attributeName="baseFrequency" dur="60s" keyTimes="0;1" values="0.04 0.08;0.01 0.05" repeatCount="indefinite"/>
+					</filter>
+				</svg>
+        </section>
+
+        <!-- Main -->
+        <section id="intro" class="wrapper style1">
+            <!-- Title of Section -->
+            <div class="title">About Me</div>
+
+            <!-- Main Container -->
+            <div class="container">
+                <!-- Top section - 3 sidebars -->
+                <div class="row gtr-150" style="align-content: center;">
+
+                    <!-- Leftmost Side -->
+                    <div class="col-4 col-12-medium">
+                        <!-- Sidebar -->
+                        <div id="sidebar" style="display: inline-block;
+							border-radius: 0.35em; width: 100%;
+							box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.5);text-align: center;">
+                            <div style="padding: 1.5em;">
+                                <header>
+                                    <h2 style="padding: .5em; font-size: 1.8em;">Two Lists</h2>
+                                </header>
+                                <header>
+                                    <h2 style="padding: .5em; font-size: 1.3em;">Interests</h2>
+                                </header>
+                                <!-- Start Interest List-->
+                                <div>
+                                    <div style="float: left;">#1:</div>
+                                    <p style="margin-bottom: .2em;">&nbsp;Programming (duh!)</p>
+                                </div>
+                                <div>
+                                    <div id="randomNum" style="float: left;">#?</div>
+                                    <p style="margin-bottom: .2em;">&nbsp;Travel (18+ countries)</p>
+                                </div>
+                                <div>
+                                    <div id="randomNum" style="float: left;">#?</div>
+                                    <p style="margin-bottom: .2em;">&nbsp;Scuba Diving (PADI Rescue, Nitrox)</p>
+                                </div>
+                                <div>
+                                    <div id="randomNum" style="float: left;">#?</div>
+                                    <p style="margin-bottom: .2em;">&nbsp;Teaching & Learning from others</p>
+                                </div>
+                                <div>
+                                    <div id="randomNum" style="float: left;">#?</div>
+                                    <p style="margin-bottom: .2em;">&nbsp;Creating things with a purpose</p>
+                                </div>
+                                <div>
+                                    <div id="randomNum" style="float: left;">#?</div>
+                                    <p style="margin-bottom: .2em;">&nbsp;Striving to be well-rounded & trying new things</p>
+                                </div>
+                                <!-- End Interest List -->
+                                <header>
+                                    <h2 style="padding: .5em; font-size: 1.3em;">Languages</h2>
+                                </header>
+                                <!-- Start Languages List -->
+                                <p style="margin-bottom: .5em;">Java & JavaFX, C++/C & CUDA, Python</p>
+                                <p style="margin-bottom: .5em;">Javascript, PHP, MySQL</p>
+                                <p style="margin-bottom: .5em;">HTML, CSS (obviously)</p>
+                                <p style="margin-bottom: .5em;">English, Russian, Spanish</p>
+                                <!-- End Languages List -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of Leftmost Side -->
+
+                    <!-- Center Side -->
+                    <div class="col-4 col-12-medium">
+                        <!-- Sidebar -->
+                        <div id="sidebar" style="display: inline-block;
+							border-radius: 0.35em; width: 100%;
+							box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.5);text-align: center;">
+                            <div style="padding: 1.5em;">
+                                <section class="box" style="text-align: center;margin: 0 0 1em 0;">
+                                    <img src="images/profile/peniscolaSelfie.jpg" alt="Avatar" style="border-radius: 50%;height:200px;width:200px;box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);">
+                                </section>
+                                <section class="box" style="margin-bottom: 2em;">
+                                    <p>
+                                        ¡Hola! My name is <strong>Vasil</strong>, and here you can learn about my <strong> skills & interests</strong>! I'm currently studying abroad in <strong>Valencia, Spain</strong>, and I am a <strong>rising 3rd year UVA Engineering Computer Science major</strong>.
+                                        For a resume, please visit <strong><a href="resume" style="text-decoration:none">"Resume"</a></strong>
+                                    </p>
+                                </section>
+                                <ul class="rrssb-buttons clearfix">
+                                    <li class="rrssb-linkedin">
+                                        <a href="https://linkedin.com/in/vasilzhigilei" target="_blank">
+                                            <span class="rrssb-icon">
+													<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28">
+														<path d="M25.424 15.887v8.447h-4.896v-7.882c0-1.98-.71-3.33-2.48-3.33-1.354 0-2.158.91-2.514 1.802-.13.315-.162.753-.162 1.194v8.216h-4.9s.067-13.35 0-14.73h4.9v2.087c-.01.017-.023.033-.033.05h.032v-.05c.65-1.002 1.812-2.435 4.414-2.435 3.222 0 5.638 2.106 5.638 6.632zM5.348 2.5c-1.676 0-2.772 1.093-2.772 2.54 0 1.42 1.066 2.538 2.717 2.546h.032c1.71 0 2.77-1.132 2.77-2.546C8.056 3.593 7.02 2.5 5.344 2.5h.005zm-2.48 21.834h4.896V9.604H2.867v14.73z"></path>
+													</svg>
+												</span>
+                                            <span class="rrssb-text">linkedin</span>
+                                        </a>
+                                    </li>
+                                    <li class="rrssb-github">
+                                        <a href="https://github.com/vasilzhigilei" target="_blank">
+                                            <span class="rrssb-icon">
+													<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28">
+														<path d="M13.97 1.57c-7.03 0-12.733 5.703-12.733 12.74 0 5.622 3.636 10.393 8.717 12.084.637.13.87-.277.87-.615 0-.302-.013-1.103-.02-2.165-3.54.77-4.29-1.707-4.29-1.707-.578-1.473-1.413-1.863-1.413-1.863-1.154-.79.09-.775.09-.775 1.276.104 1.96 1.316 1.96 1.312 1.135 1.936 2.99 1.393 3.712 1.06.116-.823.445-1.384.81-1.704-2.83-.32-5.802-1.414-5.802-6.293 0-1.39.496-2.527 1.312-3.418-.132-.322-.57-1.617.123-3.37 0 0 1.07-.343 3.508 1.305A12.22 12.22 0 0 1 14 7.732c1.082 0 2.167.156 3.198.44 2.43-1.65 3.498-1.307 3.498-1.307.695 1.754.258 3.043.13 3.37a4.968 4.968 0 0 1 1.314 3.43c0 4.893-2.978 5.97-5.814 6.286.458.388.876 1.16.876 2.358 0 1.703-.016 3.076-.016 3.482 0 .334.232.748.877.61 5.056-1.687 8.7-6.456 8.7-12.08-.055-7.058-5.75-12.757-12.792-12.75z"></path>
+													</svg>
+												</span>
+                                            <span class="rrssb-text">github</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of Center Side-->
+
+                    <!-- Rightmost Side -->
+                    <div class="col-4 col-12-medium">
+                        <!-- Sidebar -->
+                        <div id="sidebar" style="display: inline-block;
+							border-radius: 0.35em; width: 100%;
+							box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.5);text-align: center;">
+                            <div style="padding: 1.5em;">
+                                <div style="display: flex; justify-content: center; align-items: center;">
+                                    <h2 style="writing-mode: vertical-rl; padding: .5em; font-size: 1.8em;">
+                                        I promise I'll put something here,<br>eventually...
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of Rightmost Side -->
+                </div>
+                <!-- End of top section -->
+
+                <!-- Highlights Section -->
+                <div class="gtr-150" style="width: 100%;">
+                    <div class="col-8 col-12-medium imp-medium" style="width: 100%;">
+
+                        <!-- Content -->
+                        <div id="sidebar" style="display: inline-block;
+							border-radius: 0.35em; width: 100%;
+							box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.5); align-content: center;">
+
+                            <header>
+                                <h1 style="padding: 1em; font-size: 2em;">Highlighted Projects, Products, & Services</h1>
+                            </header>
+                            <div class="row gtr-0" style="align-content: center; margin-right: 0; width: 100%;">
+                                <div class="col-5 col-12-medium" style="margin: 1em; margin-left: auto; margin-right: auto;">
+                                    <div class="product Spanish" id="sidebar" style="display: inline-block;
+												border-radius: 0.35em; width: 100%;
+												box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.5);text-align: center;">
+
+                                        <div style="padding: 1.5em; z-index: 100; position: relative;">
+                                            <a href="https://spanishdefine.com" target="_blank"><img src="assets/files/spanishdefine/spanishdefine_logo_header_optimized.png" style="width:80%;"></a>
+                                            <section class="box" style="margin-bottom: 2em;">
+                                                <p style="margin-bottom: .5em;">Built for student convenience, SpanishDefine was inspired by the homework & essay writing process' of Spanish courses at UVA</p>
+                                                <p style="margin-bottom: .5em;">It is the first & only tool allowing for the conjugation of entire lists of verbs in multiple forms all at once!</p>
+                                                <p>Skills attained: a great deal of experience with <strong>JS/PHP/AJAX/MySQL</strong>, database management, creative solution seeking, advertising, & web based skills</p>
+                                            </section>
+                                        </div>
+                                    </div>
+                                    <div class="product Github" id="sidebar" style="display: inline-block;
+												border-radius: 0.35em; width: 100%;
+												box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.5);text-align: center;">
+
+                                        <div style="padding: 1.5em; z-index: 100; position: relative;">
+                                            <a href="https://github.com/vasilzhigilei" target="_blank"><img src="assets/files/github/github.png" style="width:80%;"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-5 col-12-medium" style="margin: 1em; margin-left: auto; margin-right: auto;">
+                                    <div class="product IT" id="sidebar" style="display: inline-block;
+												border-radius: 0.35em; width: 100%;
+												box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.5);text-align: center;">
+                                        <div style="padding: 1.5em; z-index: 100; position: relative;">
+                                            <a href="https://www.ebay.com/usr/ithardwaresurplus" target="_blank"><img src="assets/files/ithardwaresurplus/ebayBanner.png" style="width:80%;"></a>
+                                            <section class="box" style="margin-bottom: 2em;">
+                                                <p style="margin-bottom: .5em;">My eBay business, originally specializing in the sale of computer parts, now expanding into new products & markets (such as my <strong><a href="https://www.ebay.com/itm/333272004198" style="text-decoration:none" target="_blank">RFID blocking card</a></strong>                                                    market test run)</p>
+                                                <p style="margin-bottom: .5em;"><strong>120+ transactions</strong>, <strong>300+ items sold</strong>, <strong>100% rating</strong>, profit margins ranging <strong>30-70%</strong>, all in only <strong>three months</strong> of selling (had
+                                                    to go to Valencia :P)</p>
+                                                <p style="margin-bottom: .5em;">Skills attained: <strong>ensuring customer/client satisfaction</strong>, <strong>negotiations & sourcing</strong>, <strong>asset management</strong>, <strong>attaining efficiency</strong>, <strong>holding myself accountable</strong>,
+                                                    & small business management with no prior experience nor mentor</p>
+                                                <p>Plan upon return to US: push volumes on RFID blocking card market test, seek out new opportunities, & strategize an Amazon expansion</p>
+                                            </section>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Work & Academic Experience section -->
+                <div class="row gtr-150">
+                    <div class="col-8 col-12">
+                        <!-- Content -->
+                        <div id="content">
+                            <div id="sidebar" style="display: inline-block;
+									border-radius: 0.35em; width: 100%;
+									box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.5);text-align: center;">
+
+                                <div style="text-align:left; padding-left: 1em; padding-right: 1em; float: left;">
+                                    <header>
+                                        <h1 style="padding: 1em; padding-left: .5em; font-size: 2em;">WORK & ACADEMIC RELATED EXPERIENCES</h1>
+                                    </header>
+                                    <ul>
+                                        <li><strong>ZB&P Abogados &ndash; Law Firm Service Internship</strong> | <i>Valencia, Spain (September, 2019 &ndash; December, 2019)</i><br> Service learning internship at the <strong>largest criminal justice attorney firm</strong>                                            in Valencia. <strong>Gained significant familiarity</strong> with the Spanish justice system, read criminal cases and watched court hearings of <strong>real current & recent cases</strong>. Despite never before
+                                            having been interest in law, I wanted to <strong>try as many new
+											things as possible</strong> while in Spain, and I was definitely not dissapointed by this experience.
+                                        </li><br>
+                                        <li><strong>Research &ndash; Rodinia Benchmark Suite</strong> | <i>Charlottesville, VA (May, 2019 &ndash; November, 2019)</i><br> Finalized and developed on the <strong>Treeminer CUDA implementation</strong> for the
+                                            <strong>most widely-used GPGPU benchmarking suite</strong> in the world. After my work, this algorithm was added to the <strong>renowned Rodinia Benchmarking Suite</strong> project. Work was done under the <strong>director of the Computer Science department</strong>,
+                                            <strong>Professor Kevin Skadron</strong>. Attained experience with <strong>C++</strong>, <strong>CUDA</strong>, worked with <strong>GPGPUs</strong>, and <strong>algorithms</strong>.
+                                        </li><br>
+                                        <li><strong>Intro to Programming TA</strong> | <i>Charlottesville, VA (August, 2018 &ndash; September, 2019)</i><br>
+                                            <strong>Teaching assistant</strong> for Intro CS courses (500+ students) in <strong>Python</strong>. I was <strong>the only TA to be able to start working my first semester of UVA</strong>, due to already taking
+                                            the course during high school. Work included <strong>holding weekly labs</strong>, <strong>grading exams</strong>, and being the <strong>homework grader and contact for over thirty students</strong>. Effectively
+                                            helped students <strong>understand content</strong>, and more importantly <strong>understand how to implement</strong> the Python learned in class for various applications (such as making a game, web scraping,
+                                            data pulling, & more).
+                                        </li><br>
+                                        <li><strong>University of Virginia Scholars Program</strong> | <i>Charlottesville, VA (Spring, 2019)</i><br> Took <strong>Intro to Programming</strong> at UVA during my last semester of high school through the <strong>UVA
+											Community Scholars</strong> program. My first CS course, I was <strong>completely self-learned for the three years before</strong> due to a non-existant CS program at my school.
+                                            <strong>Received a 4.0</strong> for the class & <strong>experienced UVA courses</strong> first hand as a high schooler.
+                                        </li><br>
+                                        <li><strong>Albemarle County Schools Tech Intern</strong> | <i>Charlottesville, VA (Summer 2017, 2018)</i><br> Worked two summers servicing school technology and equipment. Gained <strong>hands-on IT experience</strong>                                            repairing and servicing devices such as laptops, projectors, printers, etc.
+                                            <strong>Serviced 2,000+ laptops</strong> over the course of two summers, and with more of a <strong>peer dynamic between technician and intern</strong> resulting in high <strong>responsibility</strong> and an
+                                            incredibly <strong>involved internship experience</strong>. Gained understanding of the inner workings of supporting so many devices and how the systems to support them are setup.
+                                            <br>(I can also now repair a Lenovo 11e laptop with a blindfold on)
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cool things section -->
+                <div class="row gtr-150">
+                    <div class="col-8 col-12">
+
+                        <!-- Content -->
+                        <div id="content">
+                            <div id="sidebar" style="display: inline-block;
 								border-radius: 0.35em; width: 100%;
 								box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.5);text-align: center;">
-								<div style="padding: 1.5em;">
-									<header><h2 style="padding: .5em; font-size: 1.8em;">Two Lists</h1></header>
-									<header><h2 style="padding: .5em; font-size: 1.3em;">Interests</h1></header>
-									<div><div style="float: left;">#1:</div><p style="margin-bottom: .2em;">Programming (duh!)</p></div>
-									<div><div id="randomNum" style="float: left;">#?</div><p style="margin-bottom: .2em;">Travel (18+ countries)</p></div> 
-									<div><div id="randomNum" style="float: left;">#?</div><p style="margin-bottom: .2em;">Scuba Diving (PADI Rescue, Nitrox)</p></div> 
-									<div><div id="randomNum" style="float: left;">#?</div><p style="margin-bottom: .2em;">Teaching & Learning from others</p></div>
-									<div><div id="randomNum" style="float: left;">#?</div><p style="margin-bottom: .2em;">Creating things with a purpose</p></div>
-									<div><div id="randomNum" style="float: left;">#?</div><p style="margin-bottom: .2em;">Striving to be well-rounded</p></div>
-									<header><h2 style="padding: .5em; font-size: 1.3em;">Languages</h1></header>
-									<p style="margin-bottom: .5em;">Java & JavaFX, C++/C & CUDA, Python</p>
-									<p style="margin-bottom: .5em;">Javascript, PHP, MySQL</p>
-									<p style="margin-bottom: .5em;">HTML, CSS (obviously)</p>
-									<p style="margin-bottom: .5em;">English, Russian, Spanish</p>
-								</div>
-							</div>									
-							</div>
-							<div class="col-4 col-12-medium">
-								<!-- Sidebar -->
-								<div id="sidebar" style="display: inline-block;
-								border-radius: 0.35em; width: 100%;
-								box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.5);text-align: center;">
-								<div style="padding: 1.5em;">
-									<section class="box" style="text-align: center;margin: 0 0 1em 0;">
-										<img src="images/profile/peniscolaSelfie.jpg" alt="Avatar" style="border-radius: 50%;height:200px;width:200px;box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);">
-									</section>
-									<section class="box" style="margin-bottom: 2em;">
-											<p>¡Hola! My name is <strong>Vasil</strong>, and here you can learn about my <strong> skills & interests</strong>! I'm currently studying abroad in <strong>Valencia, Spain</strong>, and I am a <strong>rising 3rd year UVA Engineering Computer Science major</strong>.
-												For a resume, please visit <strong><a href="resume" style="text-decoration:none">"Resume"</a></strong>
-											</p>
-											
-									</section>
-									<ul class="rrssb-buttons clearfix">
-											<li class="rrssb-linkedin">
-												<a href="https://linkedin.com/in/vasilzhigilei" target="_blank">
-													<span class="rrssb-icon">
-													<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28"><path d="M25.424 15.887v8.447h-4.896v-7.882c0-1.98-.71-3.33-2.48-3.33-1.354 0-2.158.91-2.514 1.802-.13.315-.162.753-.162 1.194v8.216h-4.9s.067-13.35 0-14.73h4.9v2.087c-.01.017-.023.033-.033.05h.032v-.05c.65-1.002 1.812-2.435 4.414-2.435 3.222 0 5.638 2.106 5.638 6.632zM5.348 2.5c-1.676 0-2.772 1.093-2.772 2.54 0 1.42 1.066 2.538 2.717 2.546h.032c1.71 0 2.77-1.132 2.77-2.546C8.056 3.593 7.02 2.5 5.344 2.5h.005zm-2.48 21.834h4.896V9.604H2.867v14.73z"></path>
-													</svg></span>
-												  <span class="rrssb-text">linkedin</span>
-												</a>
-											  </li>
-											  <li class="rrssb-github">
-												<a href="https://github.com/vasilzhigilei" target="_blank">
-												  <span class="rrssb-icon">
-													<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28"><path d="M13.97 1.57c-7.03 0-12.733 5.703-12.733 12.74 0 5.622 3.636 10.393 8.717 12.084.637.13.87-.277.87-.615 0-.302-.013-1.103-.02-2.165-3.54.77-4.29-1.707-4.29-1.707-.578-1.473-1.413-1.863-1.413-1.863-1.154-.79.09-.775.09-.775 1.276.104 1.96 1.316 1.96 1.312 1.135 1.936 2.99 1.393 3.712 1.06.116-.823.445-1.384.81-1.704-2.83-.32-5.802-1.414-5.802-6.293 0-1.39.496-2.527 1.312-3.418-.132-.322-.57-1.617.123-3.37 0 0 1.07-.343 3.508 1.305A12.22 12.22 0 0 1 14 7.732c1.082 0 2.167.156 3.198.44 2.43-1.65 3.498-1.307 3.498-1.307.695 1.754.258 3.043.13 3.37a4.968 4.968 0 0 1 1.314 3.43c0 4.893-2.978 5.97-5.814 6.286.458.388.876 1.16.876 2.358 0 1.703-.016 3.076-.016 3.482 0 .334.232.748.877.61 5.056-1.687 8.7-6.456 8.7-12.08-.055-7.058-5.75-12.757-12.792-12.75z"></path></svg>
-												  </span>
-												  <span class="rrssb-text">github</span>
-												</a>
-											  </li>
-											  </ul>
-								</div></div>									
-							</div>
-							<div class="col-4 col-12-medium">
-								<!-- Sidebar -->
-								<div id="sidebar" style="display: inline-block;
-								border-radius: 0.35em; width: 100%;
-								box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.5);text-align: center;">
-									<div style="padding: 1.5em;">
-											<div style="display: flex; justify-content: center; align-items: center;">
-												<h2 style="writing-mode: vertical-rl; padding: .5em; font-size: 1.8em;">I promise I'll put something here,<br>eventually...</h2>
-											</div>
-									</div>
-							</div>									
-							</div>
-						<div class="col-8 col-12-medium imp-medium" style="width: 100%;">
+                                <header>
+                                    <h1 style="padding: 1em; padding-left: .5em; font-size: 2em;">
+                                        ~~Cool things beyond work experience to come~~
+                                    </h1>
+                                </header>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-							<!-- Content -->
-								<div id="content">
-									<div id="sidebar" style="display: inline-block;
-								border-radius: 0.35em; width: 100%;
-								box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.5); align-content: center;">
-									
-									<header><h1 style="padding: 1em; font-size: 2em;">Highlighted Projects, Products, & Services</h1></header>
-									<div class="row gtr-0" style="align-content: center; margin-right: 0;">
-										<div class="col-5 col-12-medium" style="margin: 1em; margin-left: auto; margin-right: auto;">
-											<div class="product Spanish" id="sidebar" style="display: inline-block;
-													border-radius: 0.35em; width: 100%;
-													box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.5);text-align: center;">
-												
-												<div style="padding: 1.5em; z-index: 100; position: relative;">
-													<a href="https://spanishdefine.com" target="_blank"><img src="assets/files/spanishdefine/spanishdefine_logo_header_optimized.png" style="width:80%;"></a>
-													<section class="box" style="margin-bottom: 2em;">
-														<p style="margin-bottom: .5em;">Built for student convenience, SpanishDefine was inspired by the homework & essay writing process' of Spanish courses at UVA</p> 
-														<p style="margin-bottom: .5em;">It is the first & only tool allowing for the conjugation of entire lists of verbs in multiple forms all at once!</p>
-														<p>Skills attained: a great deal of experience with <strong>JS/PHP/AJAX/MySQL</strong>, database management, creative solution seeking, advertising, & web based skills</p>
-													</section>
-												</div>
-											</div>
-											<div class="product Github" id="sidebar" style="display: inline-block;
-													border-radius: 0.35em; width: 100%;
-													box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.5);text-align: center;">
-												
-												<div style="padding: 1.5em; z-index: 100; position: relative;">
-													<a href="https://github.com/vasilzhigilei" target="_blank"><img src="assets/files/github/github.png" style="width:80%;"></a>
-												</div>
-											</div>
-										</div>
-									<div class="col-5 col-12-medium" style="margin: 1em; margin-left: auto; margin-right: auto;">
-										<div class="product IT" id="sidebar" style="display: inline-block;
-													border-radius: 0.35em; width: 100%;
-													box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.5);text-align: center;">
-												<div style="padding: 1.5em; z-index: 100; position: relative;">
-													<a href="https://www.ebay.com/usr/ithardwaresurplus" target="_blank"><img src="assets/files/ithardwaresurplus/ebayBanner.png" style="width:80%;"></a>
-													<section class="box" style="margin-bottom: 2em;">
-														<p style="margin-bottom: .5em;">My eBay business, originally specializing in the sale of computer parts, now expanding into new products & markets (such as my <strong><a href="https://www.ebay.com/itm/333272004198" style="text-decoration:none" target="_blank">RFID blocking card</a></strong> market test run)</p> 
-														<p style="margin-bottom: .5em;"><strong>120+ transactions</strong>, <strong>300+ items sold</strong>, <strong>100% rating</strong>, profit margins ranging <strong>30-70%</strong>, all in only <strong>three months</strong> of selling (had to go to Valencia :P)</p>
-														<p style="margin-bottom: .5em;">Skills attained: <strong>ensuring customer/client satisfaction</strong>, <strong>negotiations & sourcing</strong>, <strong>asset management</strong>, <strong>attaining efficiency</strong>, <strong>holding myself accountable</strong>, & small business management with no prior experience nor mentor</p>
-														<p>Plan upon return to US: push volumes on RFID blocking card market test, seek out new opportunities, & strategize an Amazon expansion</p>
-													</section>
-												</div>
-										</div>
-									</div>
-								</div></div>
-								
-								
-								</div>	
-							</div>
-							<div class="row gtr-150">
-								<div class="col-8 col-12">
-	
-									<!-- Content -->
-										<div id="content">
-											<div id="sidebar" style="display: inline-block;
-										border-radius: 0.35em; width: 100%;
-										box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.5);text-align: center;">
-	
-											<div style="text-align:left; padding-left: 1em; padding-right: 1em; float: left;">
-											<header><h1 style="padding: 1em; padding-left: .5em; font-size: 2em;">WORK & ACADEMIC RELATED EXPERIENCES</h2></header>
-											<ul>
-											<li><strong>ZB&P Abogados &ndash; Law Firm Service Internship</strong> | <i>Valencia, Spain (September, 2019 &ndash; December, 2019)</i><br>
-												Service learning internship at the <strong>largest criminal justice attorney firm</strong> in Valencia. <strong>Gained significant familiarity</strong> with the Spanish justice
-												system, read criminal cases and watched court hearings of <strong>real current & recent cases</strong>. Despite never before having been interest in law, I wanted to <strong>try as many new
-												things as possible</strong> while in Spain, and I was definitely not dissapointed by this experience.
-											</li><br>
-											<li><strong>Research &ndash; Rodinia Benchmark Suite</strong> | <i>Charlottesville, VA (May, 2019 &ndash; November, 2019)</i><br>
-												Finalized and developed on the <strong>Treeminer CUDA implementation</strong> for the <strong>most widely-used GPGPU benchmarking suite</strong> in the world. After my work,
-												this algorithm was added to the <strong>renowned Rodinia Benchmarking Suite</strong> project. Work was done under the <strong>director of the Computer Science department</strong>, <strong>Professor Kevin Skadron</strong>.
-												Attained experience with <strong>C++</strong>, <strong>CUDA</strong>, worked with <strong>GPGPUs</strong>, and <strong>algorithms</strong>.
-											</li><br>
-											<li><strong>Intro to Programming TA</strong> | <i>Charlottesville, VA (August, 2018 &ndash; September, 2019)</i><br>
-												<strong>Teaching assistant</strong> for Intro CS courses (500+ students) in <strong>Python</strong>. I was <strong>the only TA to be able to start working my first semester of UVA</strong>, due to already
-												taking the course during high school. Work included <strong>holding weekly labs</strong>, <strong>grading exams</strong>,
-												and being the <strong>homework grader and contact for over thirty students</strong>. Effectively helped students <strong>understand content</strong>, and more
-												importantly <strong>understand how to implement</strong> the Python learned in class for various applications (such as making a game, web scraping, data pulling, & more).
-											</li><br>
-											<li><strong>University of Virginia Scholars Program</strong> | <i>Charlottesville, VA (Spring, 2019)</i><br>
-												Took <strong>Intro to Programming</strong> at UVA during my last semester of high school through the <strong>UVA
-												Community Scholars</strong> program. My first CS course, I was <strong>completely self-learned for the three years before</strong> due to a non-existant CS program at my school.
-												<strong>Received a 4.0</strong> for the class & <strong>experienced UVA courses</strong> first hand as a high schooler.
-											</li><br>
-											<li><strong>Albemarle County Schools Tech Intern</strong> | <i>Charlottesville, VA (Summer 2017, 2018)</i><br>
-												Worked two summers servicing school technology and equipment. Gained <strong>hands-on IT experience</strong> repairing and servicing devices such as laptops, projectors, printers, etc. 
-												<strong>Serviced 2,000+ laptops</strong> over the course of two summers, and with more of a <strong>peer dynamic between technician and intern</strong> resulting in high <strong>responsibility</strong> and an incredibly <strong>involved internship experience</strong>.
-												Gained understanding of the inner workings of supporting so many devices and how the systems to support them are setup.
-												<br>(I can also now repair a Lenovo 11e laptop with a blindfold on)
-											</li>
-											
-											</ul>
-											</div>
-										</div>	
-									</div>
-	
-								</div>
-							</div>
+        <!-- Footer -->
+        <section id="footer" class="wrapper">
+            <div class="title">¡El fin!</div>
+            <div class="container">
+                <header class="style1">
+                    <h2>
+                        Looks like you've gotten to the end!
+                    </h2>
+                    <p>
+                        Feel free to explore any of my other menu links!<br/>
+                    </p>
+                </header>
+                <div id="copyright">
+                    <ul>
+                        <li>&copy; 2019 <b>Vasil Zhigilei</b> All rights reserved</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
 
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/rrssb.min.js"></script>
 
+    <script>
+        const elementsList = document.querySelectorAll("#randomNum");
+        const elementsArray = [...elementsList];
+        setInterval(function() {
+            elementsArray.forEach(element => {
+                element.innerHTML = '#' + Math.floor((Math.random() * 8) + 2);
+            });
+        }, 10);
+    </script>
 
-							</div>
-
-						</div>
-
-				</section>
-
-			<!-- Footer -->
-			<section id="footer" class="wrapper">
-				<div class="title">¡El fin!</div>
-				<div class="container">
-					<header class="style1">
-						<h2>Looks like you've gotten to the end!</h2>
-						<p>
-							Feel free to explore any of my other menu links!<br />
-						</p>
-					</header>
-					<div id="copyright">
-						<ul>
-							<li>&copy; 2019 <b>Vasil Zhigilei</b> All rights reserved</li>
-						</ul>
-					</div>
-				</div>
-			</section>
-
-		</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script src="assets/js/rrssb.min.js"></script>
-
-			<script>
-			const elementsList = document.querySelectorAll("#randomNum");
-			const elementsArray = [...elementsList];
-			setInterval(function(){   
-				elementsArray.forEach(element => {
-					element.innerHTML = '#' + Math.floor((Math.random()*8)+2);
-				});
- 			}, 10);
-			</script>
-
-	</body>
-	<!--
+</body>
+<!--
 	Originally based on the Escape Velocity by HTML5 UP website theme
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 	-->
+
 </html>
