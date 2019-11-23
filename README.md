@@ -14,6 +14,10 @@ Zhigilei.com is my personal portfolio website that is intended to give better in
 Changelog
 ---------
 
+##### November 23rd, 2019
+* Completed first version of website
+* About Me page presentable
+
 ##### November 2nd, 2019
 * Added image buttons on main page to About Me and Resume
 * Added overlay animation to image buttons
