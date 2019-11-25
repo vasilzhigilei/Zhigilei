@@ -11,39 +11,31 @@
     <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
-<body class="left-sidebar is-preload">
+<body class="homepage is-preload">
     <div id="page-wrapper">
         <!-- Header -->
         <section id="header" class="wrapper">
             <!-- Header & Background Div -->
-            <div id="background">
-                <!-- Background Water Div -->
-                <div id="background-water"></div>
-
-                <!-- Logo -->
-                <div id="logo">
-                    <!--<h1><a href="index.html">Z H I G I L E I</a></h1>-->
-                    <a href="./"><img src="zhigilei.png"></a>
-                    <p style="color:#ff75ac; font-weight: bold;">Official website of Vasil Zhigilei</p>
-                </div>
-
-                <!-- Nav -->
-                <nav id="nav">
-                    <ul>
-                        <li class="current"><a href="beyond">About Me</a></li>
-                        <li><a href="./">Home</a></li>
-                        <li><a href="resume">Resume</a></li>
-                    </ul>
-                </nav>
+            <div class="fullscreen-video-wrap">
+                <video style="width: 100%; height: 100%; object-fit: cover;" autoplay muted loop id="myVideo">
+                    <source src="assets/videos/australiaWebsite.mp4" type="video/mp4">
+                    Your browser does not support HTML5 video.
+                </video>
             </div>
-            <!-- SVG turbulence filter -->
-            <svg>
-					<filter id="turbulence" x="0" y="0" width="100%" height="100%">
-						<feTurbulence id="sea-filter" numOctaves="1" seed="2" baseFrequency="0.002 0.005"></feTurbulence>
-						<feDisplacementMap scale="1" in="SourceGraphic"></feDisplacementMap>
-						<animate xlink:href="#sea-filter" attributeName="baseFrequency" dur="60s" keyTimes="0;1" values="0.04 0.08;0.01 0.05" repeatCount="indefinite"/>
-					</filter>
-				</svg>
+            <!-- Logo -->
+            <div id="logo">
+                <!--<h1><a href="index.html">Z H I G I L E I</a></h1>-->
+                <a href="./"><img src="zhigilei.png"></a>
+                <p style="color:#ff75ac; font-weight: bold;">Official website of Vasil Zhigilei</p>
+            </div>
+
+            <!-- Nav -->
+            <nav id="nav">
+                <ul>
+                    <li class="current"><a href="beyond">About Me</a></li>
+                    <li><a href="./">Resume</a></li>
+                </ul>
+            </nav>
         </section>
 
         <!-- Main -->
@@ -122,7 +114,7 @@
                                 <section class="box" style="margin-bottom: 2em;">
                                     <p>
                                         ¡Hola! My name is <strong>Vasil</strong>, and here you can learn about my <strong> skills & interests</strong>! I'm currently studying abroad in <strong>Valencia, Spain</strong>, and I am a <strong>rising 3rd year UVA Engineering Computer Science major</strong>.
-                                        For a resume, please visit <strong><a href="resume" style="text-decoration:none">"Resume"</a></strong>
+                                        For a resume, please visit <strong><a href="./" style="text-decoration:none">"Resume"</a></strong>
                                     </p>
                                 </section>
                                 <ul class="rrssb-buttons clearfix">
