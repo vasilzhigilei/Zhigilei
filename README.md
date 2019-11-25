@@ -14,6 +14,9 @@ Zhigilei.com is my personal portfolio website that is intended to give better in
 Changelog
 ---------
 
+##### November 25th, 2019
+* Removed original index page, put resume page in place of
+
 ##### November 23rd, 2019
 * Completed first version of website
 * About Me page presentable
