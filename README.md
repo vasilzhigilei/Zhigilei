@@ -14,6 +14,9 @@ Zhigilei.com is my personal portfolio website that is intended to give better in
 Changelog
 ---------
 
+##### February 2nd, 2020
+* Updated website to the 3rd decade of the 3rd millennium (changed 2019 to 2020, and updated that I am now back in the US)
+
 ##### November 25th, 2019
 * Removed original index page, put resume page in place of
 
