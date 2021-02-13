@@ -268,17 +268,6 @@
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/rrssb.min.js"></script>
-
-    <script>
-        const elementsList = document.querySelectorAll("#randomNum");
-        const elementsArray = [...elementsList];
-        setInterval(function() {
-            elementsArray.forEach(element => {
-                element.innerHTML = '#' + Math.floor((Math.random() * 8) + 2);
-            });
-        }, 10);
-    </script>
-
 </body>
 <!--
 	Originally based on the Escape Velocity by HTML5 UP website theme
