@@ -28,8 +28,8 @@
 </head>
 <body>
     <div class="header"> <!-- use font-family: 'Source Sans Pro', sans-serif;-->
-        <div class="background-image">
-            <div id="background-water"></div>
+        <div class="background">
+            <div class="background-water"></div>
 
             <!-- Logo  -->
             <div id="logo">
@@ -45,6 +45,15 @@
                     <li class="current" style="white-space: nowrap;"><a href="./">Resume</a></li>
                 </ul>
             </nav>
+            
+            <!-- The filter -->
+            <svg>
+				<filter id="turbulence" x="0" y="0" width="100%" height="100%">
+                    <feTurbulence type="turbulence" id="sea-filter" numOctaves="1" seed="2" baseFrequency="0.2 .8"></feTurbulence>
+                    <feDisplacementMap scale="2" in="SourceGraphic"></feDisplacementMap>
+                    <animate xlink:href="#sea-filter" attributeName="baseFrequency" dur="30s" keyTimes="0;1" values="0.2 0.8;0.15 0.7;" repeatCount="indefinite"></animate>
+                </filter>
+			</svg>
         </div>
     </div>
     <div class="content">
