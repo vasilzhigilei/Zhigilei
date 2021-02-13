@@ -1,15 +1,17 @@
-.fullscreen-video-wrap {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    text-align: center;
+html, body {
+    color: #ffffff;
+    min-height: 100%;
+}
+
+body {
+    height: 100vh;
+}
+
+p, h1, h2, h3, h4, h5, h6, a {
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .background {
-    /*display: flex;
-    align-items: center;
-    justify-content: center;*/
     background: url("../../images/banner.jpg") center center;
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -48,4 +50,64 @@
 .header:hover .background-water::before,
 .header:focus .background-water::before {
     background-size: 110% auto;
+}
+
+.mainnav {
+    z-index: inherit;
+    position: absolute;
+    top: 2.5em;
+    width: 100%;
+    text-align: center;
+}
+
+.mainnav-box {
+    z-index: inherit;
+    display: inline-block;
+    border-radius: 0.35em;
+    box-shadow: inset 0px 0px 1px 1px rgb(255 255 255 / 50%);
+    padding: 0 1.5em 0 1.5em;
+}
+
+.mainnav-item {
+    z-index: inherit;
+    display: inline-block;
+    text-align: center;
+    padding: 0 1.5em 0 1.5em;
+    color: rgba(255, 255, 255, 0.90);
+
+    transition: all .25s ease-in-out;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.7em;
+    letter-spacing: 0.25em;
+    height: 5em;
+    line-height: 5em;
+    cursor: pointer;
+}
+
+.mainnav-item:hover {
+    color: #fff;
+}
+
+.logo {
+    position: absolute;
+    top: 8em;
+    width: 100%;
+    text-align: center;
+}
+
+.logo p {
+    text-transform: uppercase;
+    margin: 1.5em 0 0 0;
+    display: block;
+    letter-spacing: 0.2em;
+    font-size: 0.9em;
+}
+
+.content {
+    min-height: 100%;
+}
+
+.bg-radialgradient {
+    background: radial-gradient(at top, rgb(249, 101, 145) 20%, rgb(44, 48, 58, 1) 100%);
 }
