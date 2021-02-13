@@ -109,5 +109,43 @@ p, h1, h2, h3, h4, h5, h6, a {
 }
 
 .bg-radialgradient {
-    background: radial-gradient(at top, rgb(249, 101, 145) 20%, rgb(44, 48, 58, 1) 100%);
+    background-image: radial-gradient(at top, #f96574, #de5e7c, #ab516e, #77445f, #2c303a);
+    animation: gradient 1s ease infinite;
+    background-size: 100% 130%;
 }
+
+@-webkit-keyframes gradient {
+    0% {
+      background-position: 50% 100%;
+    }
+    50% {
+      background-position: 50% 85%;
+    }
+    100% {
+      background-position: 50% 100%;
+    }
+  }
+  
+  @-moz-keyframes gradient {
+    0% {
+        background-position: 50% 100%;
+      }
+      50% {
+        background-position: 50% 85%;
+      }
+      100% {
+        background-position: 50% 100%;
+      }
+    }
+  
+  @keyframes gradient {
+    0% {
+        background-position: 50% 100%;
+      }
+      50% {
+        background-position: 50% 85%;
+      }
+      100% {
+        background-position: 50% 100%;
+      }
+    }
