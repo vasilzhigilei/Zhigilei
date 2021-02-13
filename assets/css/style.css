@@ -117,17 +117,14 @@ a:hover {
 
 .content {
     min-height: 100%;
+    position: relative;
+    text-align: center;
 }
 
 .bg-radialgradient {
     background-image: radial-gradient(at top, #f96574, #de5e7c, #ab516e, #77445f, #2c303a);
     background-size: 100% 100%;
     background-position: 0% 0%;
-}
-
-.content {
-    position: relative;
-    text-align: center;
 }
 
 .boxpadding {
@@ -155,7 +152,6 @@ a:hover {
 }
 
 .title {
-    background-image: radial-gradient(at bottom, #f96574, #EF6277, #E86179, #E25F7B);
     background-size: 100% 1000%;
     background-position: 50% 100%;
     position: absolute;
@@ -174,6 +170,14 @@ a:hover {
     margin-bottom: -3.25em;
     margin-left: -12.5em;
     padding-top: 0.5em;
+}
+
+.title-main {
+    background-image: radial-gradient(at bottom, #f96574, #EF6277, #E86179, #E25F7B);
+}
+
+.title-dark {
+    background: #2c303a;
 }
 
 .title:before {
@@ -195,4 +199,26 @@ a:hover {
     width: 35px;
     height: 38px;
     background: url(images/shadow.png);
+}
+
+.footer-content {
+    margin: 4em 0 3em 0;
+    display: inline-block;
+}
+
+.copyright-box {
+    padding: .75em 1.5em;
+    margin: 0 auto 3em auto;
+    display: inline-block;
+}
+
+.footer {
+    background: #2c303a;
+    position: relative;
+    text-align: center;
+}
+
+.boxshadow-dark {
+    border-radius: 0.35em;
+    box-shadow: inset 0px 0px 1px 1px rgb(255 255 255 / 20%);
 }
