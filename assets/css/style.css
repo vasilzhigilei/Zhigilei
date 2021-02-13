@@ -11,6 +11,14 @@ p, h1, h2, h3, h4, h5, h6, a {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+a {
+    color: inherit;
+} 
+
+a:hover {
+    color: inherit;
+}
+
 .background {
     background: url("../../images/banner.jpg") center center;
     background-size: 100% auto;
@@ -124,10 +132,26 @@ p, h1, h2, h3, h4, h5, h6, a {
 
 .boxpadding {
     padding: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.blockmargin {
+    margin-bottom: 1em;
+}
+
+.blockmargin-2 {
+    margin-bottom: 2em;
 }
 
 .paddingtopbottom {
     padding: 5em 0px;
+}
+
+.profileimage {
+    border-radius: 50%;
+    height:200px;
+    width:200px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
 }
 
 .title {
