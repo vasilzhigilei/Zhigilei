@@ -222,3 +222,14 @@ a:hover {
     border-radius: 0.35em;
     box-shadow: inset 0px 0px 1px 1px rgb(255 255 255 / 20%);
 }
+
+.other-image {
+    max-width: 100%;
+    padding: .5em;
+}
+
+.other-image-half {
+    float: left;
+    width: 50%;
+    padding: 1.25em;
+}
