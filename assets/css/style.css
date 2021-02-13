@@ -63,8 +63,6 @@ p, h1, h2, h3, h4, h5, h6, a {
 .mainnav-box {
     z-index: inherit;
     display: inline-block;
-    border-radius: 0.35em;
-    box-shadow: inset 0px 0px 1px 1px rgb(255 255 255 / 50%);
     padding: 0 1.5em 0 1.5em;
 }
 
@@ -87,6 +85,11 @@ p, h1, h2, h3, h4, h5, h6, a {
 
 .mainnav-item:hover {
     color: #fff;
+}
+
+.boxshadow {
+    border-radius: 0.35em;
+    box-shadow: inset 0px 0px 1px 1px rgb(255 255 255 / 50%);
 }
 
 .logo {
@@ -116,10 +119,19 @@ p, h1, h2, h3, h4, h5, h6, a {
 
 .content {
     position: relative;
+    text-align: center;
+}
+
+.boxpadding {
+    padding: 1.5em;
+}
+
+.paddingtopbottom {
+    padding: 5em 0px;
 }
 
 .title {
-    background-image: radial-gradient(at bottom, #f96574, #EF6277, #E86179, #E35F7A, #E25F7B);
+    background-image: radial-gradient(at bottom, #f96574, #EF6277, #E86179, #E25F7B);
     background-size: 100% 1000%;
     background-position: 50% 100%;
     position: absolute;
