@@ -219,10 +219,8 @@ a:hover {
 }
 
 .title-main {
-    /*background-image: radial-gradient(at bottom, #f96574, #EF6277, #E86179, #E25F7B);*/
     background-image: radial-gradient(at bottom, #f96574, #de5e7c, #ab516e, #77445f, #2c303a);
     background-size: 100vw 100vh;
-    /*background-position: 0% 0%;*/
 }
 
 .title-dark {
