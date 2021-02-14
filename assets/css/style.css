@@ -33,8 +33,17 @@ a:hover {
     position: relative;
 }
 
+.background-finance {
+    min-width: 100%;
+    min-height: 24em;
+    position: relative;
+    background: url("../images/background/camino.jpg") center center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
 .background {
-    background: url("../images/waterbackground/banner.jpg") center center;
+    background: url("../images/background/marseille.jpg") center center;
     background-size: 100% auto;
     background-repeat: no-repeat;
     min-width: 100%;
@@ -51,7 +60,7 @@ a:hover {
 }
 
 .background-water::before {
-    background: url("../images/waterbackground/bannerMask.png") center center;
+    background: url("../images/background/marseilleMask.png") center center;
     background-size: 100% auto;
     min-width: 100%;
     min-height: 24em;
@@ -215,6 +224,11 @@ a:hover {
     width: 35px;
     height: 38px;
     background: url(images/shadow.png);
+}
+
+.outside-content {
+    margin: 4em 0 0 0;
+    display: inline-block;
 }
 
 .footer-content {
