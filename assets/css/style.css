@@ -99,6 +99,23 @@ a:hover {
     padding: 0 1.5em 0 1.5em;
 }
 
+.mainnav-boxshadow {
+    border-radius: 0.35em;
+    box-shadow: inset 0px 0px 1px 1px rgb(255 255 255 / 50%);
+}
+
+@media only screen and (max-width: 768px) {
+    .mainnav {
+        top: 2em;
+    }
+    .mainnav-box {
+        padding: 0 .5em 0 .5em !important;
+    }
+    .mainnav-item {
+        padding: 0 .5em 0 .5em !important;
+    }
+}
+
 .mainnav-item {
     z-index: inherit;
     display: inline-block;
@@ -202,7 +219,10 @@ a:hover {
 }
 
 .title-main {
-    background-image: radial-gradient(at bottom, #f96574, #EF6277, #E86179, #E25F7B);
+    /*background-image: radial-gradient(at bottom, #f96574, #EF6277, #E86179, #E25F7B);*/
+    background-image: radial-gradient(at bottom, #f96574, #de5e7c, #ab516e, #77445f, #2c303a);
+    background-size: 100vw 100vh;
+    /*background-position: 0% 0%;*/
 }
 
 .title-dark {
