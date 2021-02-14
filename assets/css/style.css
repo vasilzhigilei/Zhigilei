@@ -40,20 +40,19 @@ a:hover {
     min-height: 24em;
     position: relative;
     background: url("../images/background/camino.jpg") center center;
-    background-size: 100% auto;
+    background-size: cover;
     background-repeat: no-repeat;
-    overflow: hidden;
 }
 
 .background {
     background: url("../images/background/marseille.jpg") center center;
-    background-size: 100% auto;
+    background-size: cover;
     background-repeat: no-repeat;
     min-width: 100%;
     min-height: 24em;
     padding: 0;
     position: relative;
-    transition: background-size 2s ease-in-out;
+    /*transition: transform 2s ease-in-out;*/
 }
 
 .background-water {
@@ -64,27 +63,27 @@ a:hover {
 
 .background-water::before {
     background: url("../images/background/marseilleMask.png") center center;
-    background-size: 100% auto;
+    background-size: cover;
     min-width: 100%;
     min-height: 24em;
     position: absolute;
     padding: 0;
     content: "";
 
-    transition: background-size 2s ease-in-out;
+    /*transition: background-size 2s ease-in-out;*/
 
     filter: url("#turbulence");
 }
 
-.header:hover .background,
+/*.header:hover .background,
 .header:focus .background {
-    background-size: 110% auto;
+    transform: scale(1.1, auto);
 }
 
 .header:hover .background-water::before,
 .header:focus .background-water::before {
     background-size: 110% auto;
-}
+}*/
 
 .mainnav {
     z-index: inherit;
