@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="http://zhigilei.com" target="_blank"><img width="320" height="124" src="https://raw.githubusercontent.com/vasilzhigilei/Zhigilei/master/zhigilei.png"></a>
+  <a href="http://zhigilei.com" target="_blank"><img width="320" height="124" src="https://raw.githubusercontent.com/vasilzhigilei/Zhigilei/master/assets/images/zhigilei.png"></a>
 </p>
 
 Zhigilei

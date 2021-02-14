@@ -42,6 +42,7 @@ a:hover {
     background: url("../images/background/camino.jpg") center center;
     background-size: 100% auto;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .background {
