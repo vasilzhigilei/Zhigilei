@@ -174,8 +174,9 @@ a:hover {
 
 .profileimage {
     border-radius: 50%;
-    height:200px;
-    width:200px;
+    max-height: 200px;
+    max-width: 200px;
+    width: 100%;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
 }
 
