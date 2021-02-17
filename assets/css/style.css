@@ -186,7 +186,8 @@ a:hover {
 }
 
 .paddingtopbottom {
-    padding: 5em 0px;
+    padding-top: 4em;
+    padding-bottom: 6.5em;
 }
 
 .profileimage {
