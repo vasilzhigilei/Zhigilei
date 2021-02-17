@@ -39,13 +39,13 @@ a:hover {
     min-width: 100%;
     min-height: 24em;
     position: relative;
-    background: url("../images/background/camino.jpg") center center;
+    background: url("../images/background/camino_optimized.jpg") center center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .background {
-    background: url("../images/background/marseille.jpg") center center;
+    background: url("../images/background/marseille_optimized.jpg") center center;
     background-size: cover;
     background-repeat: no-repeat;
     min-width: 100%;
