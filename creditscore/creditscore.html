@@ -1,0 +1,161 @@
+<html>
+    <head>
+        <!-- Bootstrap CSS -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Karla&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link rel="stylesheet" href="creditscore.css">
+    </head>
+    <body style="background:none transparent;">
+        <div class="toplevel background-gradient">
+            <div style="width:100%; text-align: center;">
+                <h1 style="font-weight: bolder;">Estimate Your Credit Score</h1>
+            </div>
+
+            <label class="form-label">How many monthly payments have you missed?</label>
+            <small class="form-text smalltext">(in the last 7 years)</small>
+            <div class="mb-3">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="paymentRadioOptions" id="paymentsRadio1" value="1">
+                    <label class="form-check-label" for="paymentsRadio1">0</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="paymentRadioOptions" id="paymentsRadio2" value=".67">
+                    <label class="form-check-label" for="paymentsRadio2">1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="paymentRadioOptions" id="paymentsRadio3" value=".34">
+                    <label class="form-check-label" for="paymentsRadio3">2</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="paymentRadioOptions" id="paymentsRadio4" value="0">
+                    <label class="form-check-label" for="paymentsRadio4">3+</label>
+                </div>
+            </div>
+
+            <label class="form-label">What is the average age of your credit accounts?</label>
+            <div class="mb-3">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="ageRadioOptions" id="ageRadio1" value="0">
+                    <label class="form-check-label" for="ageRadio1">&#60;&#61; 4 years</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="ageRadioOptions" id="ageRadio2" value=".34">
+                    <label class="form-check-label" for="ageRadio2">5-6 years</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="ageRadioOptions" id="ageRadio3" value=".67">
+                    <label class="form-check-label" for="ageRadio3">7-8 years</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="ageRadioOptions" id="ageRadio4" value="1">
+                    <label class="form-check-label" for="ageRadio4">9+ years</label>
+                </div>
+            </div>
+
+            <label class="form-label">What is your monthly credit utilization?</label>
+            <div class="mb-3">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="utilizationRadioOptions" id="utilizationRadio1" value="1">
+                    <label class="form-check-label" for="utilizationRadio1">0-20%</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="utilizationRadioOptions" id="utilizationRadio2" value=".67">
+                    <label class="form-check-label" for="utilizationRadio2">20-30%</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="utilizationRadioOptions" id="utilizationRadio3" value=".34">
+                    <label class="form-check-label" for="utilizationRadio3">31-50%</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="utilizationRadioOptions" id="utilizationRadio4" value="0">
+                    <label class="form-check-label" for="utilizationRadio4">51-100%</label>
+                </div>
+            </div>
+
+            <label class="form-label">How many new loans or credit cards have you opened or applied for in the last 6 months?</label>
+            <div class="mb-3">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="recentRadioOptions" id="recentRadio1" value="1">
+                    <label class="form-check-label" for="recentRadio1">None</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="recentRadioOptions" id="recentRadio2" value=".67">
+                    <label class="form-check-label" for="recentRadio2">1-2</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="recentRadioOptions" id="recentRadio3" value=".34">
+                    <label class="form-check-label" for="recentRadio3">3-5</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="recentRadioOptions" id="recentRadio4" value="0">
+                    <label class="form-check-label" for="recentRadio4">6+</label>
+                </div>
+            </div>
+            <label class="form-label">What is your total unpaid balance on all cards?</label>
+            <small class="form-text smalltext">(both current & delinquent)</small>
+            <div class="input-group mb-3">
+                <span class="input-group-text">$</span>
+                <input id="unpaidInput" type="number" class="form-control" aria-label="Amount (to the nearest dollar)">
+            </div>
+
+            <label class="form-label">What is your total credit limit for all your cards?</label>
+            <div class="input-group mb-3">
+                <span class="input-group-text">$</span>
+                <input id="totalLimitInput" type="number" class="form-control" aria-label="Amount (to the nearest dollar)">
+            </div>
+
+            <div class="buttoncontainer" onclick="estimate()">
+                <button type="button" class="estimatebutton">
+                    Estimate!
+                    <div class="fill"></div>
+                </button>
+            </div>
+        
+            <hr>
+            <div class="row">
+                <div class="col-4" style="text-align: center;">
+                    <h3>Your Score</h3>
+                    <h1 id="score" style="font-weight: bolder;">###</h1>
+                    <small class="form-text smalltext" style="margin-top: -8px;" title="May not be accurate. Inspired by VantageScore 3.0 weightings." data-bs-toggle="tooltip" data-bs-placement="bottom">
+                        Disclaimer &#128712;
+                    </small>
+                </div>
+                <div class="col-8">
+                    <img src="creditscorerange.png" style="width: 100%;">
+                </div>
+            </div>
+        </div>
+        
+        <!--
+            Factors that make up your Vantage Score 3.0 credit score
+            source: CreditKarma.com https://www.creditkarma.com/credit-cards/i/vantagescore-30
+            Payment history: 40%
+            Age and type of credit: 21%
+            Credit utilization: 20%
+            Balances: 11%
+            Recent credit: 5%
+            Available credit: 3%
+
+            Possible questions to ask:
+            Payment history:
+                How many monthly payments have you missed in the last 7 years? 0, 1, 2, 3+
+            Age and type of credit:
+                What is the average age of your credit accounts? less than 4yrs, 5-6, 7-8, 9+ 
+            Credit utilization:
+                What is your monthly credit utilization? 0-20%(Excellent), 21-30%(Good), 31-50%(Average), 51-100%(Poor)
+            Balances:
+                What is your total unpaid balance on all cards (both current & delinquent)?
+            Recent credit:
+                How many new loans or credit cards have you opened or applied for in the past 6 months? None, 1-2, 3-5, 6+
+            Available credit:
+                What is your total credit limit for all your credit cards? 20-22k excellent
+
+            Disclaimer: Inspired by Vantage Score 3.0, not guaranteed to be accurate, only to be used as a tool to see cause-and-effect...maybe not last part
+        -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        <script src="./creditscore.js"></script>
+    </body>
+</html>
