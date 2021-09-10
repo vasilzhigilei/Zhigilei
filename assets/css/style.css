@@ -168,7 +168,7 @@ a:hover {
 }
 
 .bg-radialgradient {
-    background-image: radial-gradient(at top, #f96574, #de5e7c, #ab516e, #77445f, #2c303a);
+    background-image: radial-gradient(at top, rgba(66,72,87,1) 0%, rgba(66,72,87,1) 13%, rgba(61,66,80,1) 33%, rgba(44,48,58,1) 100%);
     background-size: 100% 100%;
     background-position: 0% 0%;
 }
@@ -220,7 +220,7 @@ a:hover {
 }
 
 .title-main {
-    background-image: radial-gradient(at bottom, #f96574, #de5e7c, #ab516e, #77445f, #2c303a);
+    background-image: radial-gradient(at bottom, rgba(66,72,87,1) 0%, rgba(66,72,87,1) 13%, rgba(61,66,80,1) 33%, rgba(44,48,58,1) 100%);
     background-size: 100vw 100vh;
 }
 
