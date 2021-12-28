@@ -11,7 +11,7 @@ body {
 
 .sheep-platform {
     border-top-style: solid;
-    border-width: 2px;
+    border-width: 0px;
 }
 
 p, h1, h2, h3, h4, h5, h6, a {
