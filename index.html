@@ -29,6 +29,8 @@
         
         gtag('config', 'UA-145722606-2');
     </script>
+
+    <script src="https://adrianotiger.github.io/web-esheep/dist/esheep.min.js"></script>
 </head>
 <body>
     <div class="header">
@@ -59,7 +61,7 @@
             <!-- The filter -->
             <svg>
 				<filter id="turbulence" x="0" y="0" width="100%" height="100%">
-                    <feTurbulence type="turbulence" id="sea-filter" numOctaves="1" seed="2" baseFrequency="0.2 .8"></feTurbulence>
+                    <feTurbulence type="turbulence" id="sea-filter" numOctaves="10" seed="2" baseFrequency="0.2 .8"></feTurbulence>
                     <feDisplacementMap scale="2" in="SourceGraphic"></feDisplacementMap>
                     <animate xlink:href="#sea-filter" attributeName="baseFrequency" dur="30s" keyTimes="0;1" values="0.2 0.8;0.15 0.7;" repeatCount="indefinite"></animate>
                 </filter>
@@ -74,7 +76,7 @@
             <div class="row">
                 <div class="col-lg-4 pe-lg-4">
                     <!-- PROFILE SECTION -->
-                    <div class="boxshadow boxpadding mb-3">
+                    <div class="boxshadow boxpadding mb-3 sheep-platform">
                         <!-- PROFILE IMAGE -->
                         <img src="assets/images/profile/sevillasmallest.jpg" alt="Avatar" class="profileimage blockmargin">
                         <!-- DESCRIPTION -->
@@ -85,25 +87,29 @@
                         <!-- LINKEDIN AND GITHUB LINKS -->
                         <ul class="rrssb-buttons clearfix rrssb-1">
                             <li class="rrssb-linkedin" data-initwidth="50" data-size="60" style="width: 50%;">
+                                <div class="sheep-platform">
                                 <a href="https://linkedin.com/in/vasilzhigilei" target="_blank">
                                     <span class="rrssb-icon">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28"><path d="M25.424 15.887v8.447h-4.896v-7.882c0-1.98-.71-3.33-2.48-3.33-1.354 0-2.158.91-2.514 1.802-.13.315-.162.753-.162 1.194v8.216h-4.9s.067-13.35 0-14.73h4.9v2.087c-.01.017-.023.033-.033.05h.032v-.05c.65-1.002 1.812-2.435 4.414-2.435 3.222 0 5.638 2.106 5.638 6.632zM5.348 2.5c-1.676 0-2.772 1.093-2.772 2.54 0 1.42 1.066 2.538 2.717 2.546h.032c1.71 0 2.77-1.132 2.77-2.546C8.056 3.593 7.02 2.5 5.344 2.5h.005zm-2.48 21.834h4.896V9.604H2.867v14.73z"></path>
                                                 </svg></span>
                                     <span class="rrssb-text">linkedin</span>
                                 </a>
+                                </div>
                             </li>
                             <li class="rrssb-github" data-initwidth="50" data-size="48" style="width: 50%;">
+                                <div class="sheep-platform">
                                 <a href="https://github.com/vasilzhigilei" target="_blank">
                                     <span class="rrssb-icon">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28"><path d="M13.97 1.57c-7.03 0-12.733 5.703-12.733 12.74 0 5.622 3.636 10.393 8.717 12.084.637.13.87-.277.87-.615 0-.302-.013-1.103-.02-2.165-3.54.77-4.29-1.707-4.29-1.707-.578-1.473-1.413-1.863-1.413-1.863-1.154-.79.09-.775.09-.775 1.276.104 1.96 1.316 1.96 1.312 1.135 1.936 2.99 1.393 3.712 1.06.116-.823.445-1.384.81-1.704-2.83-.32-5.802-1.414-5.802-6.293 0-1.39.496-2.527 1.312-3.418-.132-.322-.57-1.617.123-3.37 0 0 1.07-.343 3.508 1.305A12.22 12.22 0 0 1 14 7.732c1.082 0 2.167.156 3.198.44 2.43-1.65 3.498-1.307 3.498-1.307.695 1.754.258 3.043.13 3.37a4.968 4.968 0 0 1 1.314 3.43c0 4.893-2.978 5.97-5.814 6.286.458.388.876 1.16.876 2.358 0 1.703-.016 3.076-.016 3.482 0 .334.232.748.877.61 5.056-1.687 8.7-6.456 8.7-12.08-.055-7.058-5.75-12.757-12.792-12.75z"></path></svg>
                                                 </span>
                                     <span class="rrssb-text">github</span>
                                 </a>
+                                </div>
                             </li>
                         </ul>
                     </div>
                     <!-- pdf button -->
-                    <div class="boxshadow boxpadding mb-3">
+                    <div class="boxshadow boxpadding mb-3 sheep-platform">
                         <ul class="rrssb-buttons clearfix rrssb-2 large-format" style="font-size: 22.6107px;">
                             <li class="rrssb-print" data-initwidth="100" data-size="83" style="width: 100%;"><a href="assets/files/ZHIGILEI-resume-fall2021.pdf" target="_blank"><span class="rrssb-icon">
                                     <svg viewBox="0 0 28 28">
@@ -113,7 +119,7 @@
                         </ul>
                     </div>
                     <!-- more websites -->
-                    <div class="boxshadow boxpadding mb-3">
+                    <div class="boxshadow boxpadding mb-3 sheep-platform">
                         <h2>Other Websites</h2>
                         <div style="padding: 0 2em 0 2em;">
                             <div>
@@ -131,7 +137,7 @@
                 </div>
                 <!-- big main resume col-8 section -->
                 <div class="col-lg-8 ps-lg-4">
-                    <div class="boxshadow boxpadding mb-3" style="display: inline-block; width: 100%; text-align: left;">
+                    <div class="boxshadow boxpadding mb-3 sheep-platform" style="display: inline-block; width: 100%; text-align: left;">
                         <h2 style="float: left; clear: both;">Vasil Zhigilei</h2>
                         <div id="links" style="float: right; text-align: right; flex-grow: 1;">
                             <p>
@@ -205,7 +211,7 @@
                 <div class="col-lg-4 pe-lg-4" style="margin: 0; padding: 0;">
                 </div>
                 <div class="col-lg-8 ps-lg-4 ml-4">
-                    <div class="boxshadow boxpadding mb-3" style="display: inline-block; width: 100%; text-align: left;">
+                    <div class="boxshadow boxpadding mb-3 sheep-platform" style="display: inline-block; width: 100%; text-align: left;">
                         <div id="relevantcoursework" style="float: left; width: 100%; margin-bottom: 1rem;">
                             <h5><strong>RELEVANT COURSEWORK</strong></h5>
                             <strong>Currently Taking</strong>
@@ -227,8 +233,8 @@
            
         </div>
     </div>
-    <div class="footer">
-        <div class="title title-dark">
+    <div class="footer sheep-platform">
+        <div class="title title-dark sheep-platform">
             ¡El fin!
         </div>
         <div class="container">
@@ -241,7 +247,7 @@
                 </div>
             </div>
             <div style="width: 100%;">
-                <div class="boxshadow-dark copyright-box">
+                <div class="boxshadow-dark copyright-box sheep-platform">
                     © 2021 <b>Vasil Zhigilei</b>
                 </div>
             </div>
@@ -249,5 +255,9 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="assets/rrssb/rrssb.min.js"></script>
+    <script>
+        var sheep = new eSheep({allowPopup:"no"}); 
+        sheep.Start(); 
+    </script>
 </body>
 </html>

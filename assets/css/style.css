@@ -9,6 +9,11 @@ body {
     overflow-x: hidden;
 }
 
+.sheep-platform {
+    border-top-style: solid;
+    border-width: 2px;
+}
+
 p, h1, h2, h3, h4, h5, h6, a {
     font-family: 'Source Sans Pro', sans-serif;
 }
