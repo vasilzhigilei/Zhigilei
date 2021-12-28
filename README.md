@@ -14,6 +14,10 @@ Zhigilei.com is my personal portfolio website that is intended to give better in
 Changelog
 ---------
 
+##### December 28th, 2021
+* Many updates since last changelog update
+* Added eSheep to website: https://github.com/Adrianotiger/web-esheep
+
 ##### July 18th, 2020
 * Revised & updated resume, added logo-buttons to new projects in the "Other Websites" section
 * Removed repetitive content of the "Beyond" page
